@@ -9,10 +9,10 @@ npm 9.2.0
 npx 9.2.0
 
 ## Packages
-react-icons --save
-react-router-dom
-react-bootstrap 
-bootstrap
+react-icons --save\n
+react-router-dom\n
+react-bootstrap\n
+bootstrap\n
 
 ## Run build 
 
