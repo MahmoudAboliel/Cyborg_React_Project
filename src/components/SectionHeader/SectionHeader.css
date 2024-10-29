@@ -1,0 +1,12 @@
+.section-header h4 {
+    font-size: 36px;
+    font-weight: var(--font-weight-bold);
+}
+.section-header h4 span:first-child {
+    text-decoration: underline;
+
+}
+.section-header h4 span:last-child {
+    
+    color: var(--color-primary);
+}

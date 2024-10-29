@@ -1,0 +1,9 @@
+.feature-items {
+    display: flex;
+    overflow-x: scroll;
+    white-space: nowrap;
+    padding: 10px;
+    gap: 10px;
+    scrollbar-width: none;
+    scroll-behavior: smooth;
+}

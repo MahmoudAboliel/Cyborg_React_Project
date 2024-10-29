@@ -1,0 +1,9 @@
+.details-main img {
+    border-radius: var(--border-radius-primary);
+    
+}
+@media (max-width: 768px) {
+    .details-main img:first-child {
+        margin-bottom: 20px;
+    }
+}

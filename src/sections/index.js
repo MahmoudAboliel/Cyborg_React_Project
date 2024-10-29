@@ -1,0 +1,16 @@
+export { default as Header } from './Header/Header';
+export { default as Hero } from './Hero/Hero';
+export { default as MostPopular } from './MostPopular/MostPopular';
+export { default as GamingLibrary } from './GamingLibrary/GamingLibrary';
+export { default as BrowseFeature } from './BrowseFeature/BrowseFeature';
+export { default as BrowseTop } from './BrowseTop/BrowseTop';
+export { default as LiveStream } from './LiveStream/LiveStream';
+export { default as MostPopularLiveStream } from './MostPopularLiveStream/MostPopularLiveStream';
+export { default as DetailsMain } from './DetailsMain/DetailsMain';
+export { default as FortniteDetails } from './FortniteDetails/FortniteDetails';
+export { default as DetailsOtherGames } from './DetailsOtherGames/DetailsOtherGames';
+export { default as StreamsTop } from './StreamsTop/StreamsTop';
+export { default as ProfileMain } from './ProfileMain/ProfileMain';
+export { default as ProfileMainTop } from './ProfileMainTop/ProfileMainTop';
+export { default as ProfileMainBottom } from './ProfileMainBottom/ProfileMainBottom';
+export { default as Footer } from './Footer/Footer';

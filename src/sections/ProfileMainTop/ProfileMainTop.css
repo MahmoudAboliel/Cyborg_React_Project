@@ -1,0 +1,4 @@
+.profile-main-top img {
+    border-radius: var(--border-radius-primary);
+    /* max-width: 300px; */
+}

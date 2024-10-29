@@ -1,0 +1,25 @@
+.feature-card-item {
+    width: 230px;
+    flex-grow: 0;
+    flex-shrink: 0;
+    margin: calc(var(--margin-primary) / 5);
+}
+.feature-card-image {
+    width: 100%;
+    border-radius: var(--border-radius-primary);
+    margin-bottom: 15px;
+}
+.feature-card-content {
+    display: flex;
+    justify-content: space-between;
+}
+.feature-card-title span {
+    color: var(--color-secondary)
+}
+.feature-card-content ul {
+    text-align: right;
+}
+.feature-card-content ul li span {
+    position: relative;
+    top: -5px;
+}

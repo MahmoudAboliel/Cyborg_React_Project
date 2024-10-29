@@ -1,0 +1,13 @@
+.details-games-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 5px;
+    border-bottom: 1px solid var(--color-secondary);
+}
+.details-games-card img {
+    border-radius: var(--border-radius-primary);
+}
+.details-games-card h6 span {
+    color: var(--color-secondary);
+}

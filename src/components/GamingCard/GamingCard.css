@@ -1,0 +1,36 @@
+.gaming-card {
+    flex: 1 1 100%;
+}
+.gaming-card ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: calc(var(--padding-primary) / 2) 0;
+    border-bottom: 1px solid var(--color-primary);
+    transition: all .3s;
+    border-radius: 20px;
+}
+.gaming-card ul:hover {
+    background-color: rgb(25, 25, 25);
+}
+.gaming-card ul li {
+    text-align: center;
+    padding: 10px;
+    
+}
+.gaming-card ul img {
+    border-radius: var(--border-radius-primary);
+    margin-bottom: 15px;
+}
+.gaming-card ul h4 {
+    font-size: 1rem;
+}
+
+.gaming-card ul span {
+    font-size: calc(1rem - 2px) ;
+    color: var(--color-secondary);
+}
+.gaming-card .main-btn {
+    padding: 15px 0;
+}

@@ -1,0 +1,60 @@
+.fortnite-details {
+    padding: var(--padding-secondary);
+    margin-top: var(--margin-secondary);
+    text-align: center;
+}
+.fortnite-details h1 {
+    font-size: 4vw;
+    text-transform: uppercase;
+    font-weight: var(--font-weight-bold);
+}
+.fortnite-cards {
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+@media (min-width: 992px) {
+    .fortnite-cards {
+        flex-wrap: nowrap;
+    }
+}
+.fortnite-cards .fortnite-card-one,
+.fortnite-cards .fortnite-card-two {
+    flex: 1 1 50%;
+    background-color: var(--color-dark);
+    border-radius: var(--border-radius-primary);
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.fortnite-cards h6 {
+    line-height: 30px;
+}
+.fortnite-cards .fortnite-card-one {
+    margin-right: auto;
+}
+.fortnite-card-one h6 span {
+    color: var(--color-secondary);
+}
+
+.fortnite-images {
+    margin: 20px 0;
+
+}
+@media (max-width: 991px) {
+    .fortnite-images img:not(:last-child) {
+        margin-bottom: 20px;
+    }
+}
+.fortnite-images img {
+    border-radius: var(--border-radius-primary);
+}
+.fortnite-description {
+    color: var(--color-secondary);
+    text-align: center;
+    padding: 10px;
+}

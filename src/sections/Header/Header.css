@@ -1,0 +1,14 @@
+.cyborg-navbar {
+    min-height: 100px;
+}
+.profile-link {
+    background-color: var(--color-dark);
+    padding: 15px 20px;
+    border-radius: var(--border-radius-primary);
+}
+.profile-link img {
+    width: 30px;
+    border-radius: 50%;
+    margin-left: 5px;
+
+}

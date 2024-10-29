@@ -1,0 +1,17 @@
+.clips-card {
+    background-color: var(--color-dark);
+    padding: 20px;
+    border-radius: var(--border-radius-primary);
+    /* width: 100%; */
+    min-width: 180px;
+    flex: 1 1 20%;
+}
+.clips-card img {
+    border-radius: var(--border-radius-primary);
+    margin-bottom: 20px;
+    width: 100%;
+}
+.clips-card .content {
+    display: flex;
+    justify-content: space-between;
+}

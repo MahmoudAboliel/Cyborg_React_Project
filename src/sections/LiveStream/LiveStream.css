@@ -1,0 +1,15 @@
+.live-stream {
+    padding: var(--padding-primary);
+    margin-top: var(--margin-primary);
+    text-align: center;
+}
+.live-stream-items {
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+.live-btn {
+    margin-top: var(--margin-primary);
+}

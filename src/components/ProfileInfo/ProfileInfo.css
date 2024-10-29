@@ -1,0 +1,23 @@
+.profile-info-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: var(--color-dark);
+    color: var(--color-secondary);
+    padding: var(--padding-secondary);
+    border-radius: var(--border-radius-primary);
+    /* margin-top: 1px; */
+}
+.profile-info-content .line {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+
+}
+.profile-info-content .line:not(:last-child) {
+    border-bottom: 1px solid var(--color-secondary);
+    padding-bottom: 25px;
+}
+.profile-info-content .line span:last-of-type {
+    color: var(--color-primary);
+}

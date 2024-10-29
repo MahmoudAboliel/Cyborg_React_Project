@@ -1,0 +1,21 @@
+@media (max-width: 991px) {
+    .profile-state-content {
+        margin: 30px 0;
+    }
+}
+.profile-state-content .state {
+    display: block;
+    width: fit-content;
+    font-size: 20px;
+    background-color: var(--color-primary);
+    padding: 5px 20px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+.profile-state-content h2 {
+    margin-bottom: 20px;
+}
+.profile-state-content p {
+    color: var(--color-secondary);
+    margin-bottom: 40px;
+}
