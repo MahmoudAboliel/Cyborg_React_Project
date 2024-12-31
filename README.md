@@ -1,21 +1,7 @@
-# Cyborg_React_Project
+# Cyborg_React_Project (React with Bootstrap)
 
-## Versions 
+# Developed a multi-page React website with structured sections and reusable components. The project emphasized component integration, seamless page linking. 
 
-nodejs v18.19.1
-
-npm 9.2.0
-
-npx 9.2.0
-
-## Packages
-react-icons --save
-
-react-router-dom
-
-react-bootstrap
-
-bootstrap
 
 ## Run build 
 
