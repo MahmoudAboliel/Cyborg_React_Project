@@ -1,6 +1,6 @@
 # Cyborg_React_Project (React with Bootstrap)
 
-# Developed a multi-page React website with structured sections and reusable components. The project emphasized component integration, seamless page linking. 
+## Developed a multi-page React website with structured sections and reusable components. The project emphasized component integration, seamless page linking. 
 
 
 ## Run build 
